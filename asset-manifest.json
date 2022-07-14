@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Godfrey-Bongomin-ReactPortfolio/static/css/main.7ccea718.css",
+    "main.js": "/Godfrey-Bongomin-ReactPortfolio/static/js/main.5403ff7e.js",
+    "static/js/787.76bb0e3e.chunk.js": "/Godfrey-Bongomin-ReactPortfolio/static/js/787.76bb0e3e.chunk.js",
+    "index.html": "/Godfrey-Bongomin-ReactPortfolio/index.html",
+    "main.7ccea718.css.map": "/Godfrey-Bongomin-ReactPortfolio/static/css/main.7ccea718.css.map",
+    "main.5403ff7e.js.map": "/Godfrey-Bongomin-ReactPortfolio/static/js/main.5403ff7e.js.map",
+    "787.76bb0e3e.chunk.js.map": "/Godfrey-Bongomin-ReactPortfolio/static/js/787.76bb0e3e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ccea718.css",
+    "static/js/main.5403ff7e.js"
+  ]
+}
