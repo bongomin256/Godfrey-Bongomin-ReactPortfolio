@@ -1,5 +1,5 @@
 import React from "react";
-import { faGithub } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
 function Portfolio() {
   return (
@@ -16,7 +16,7 @@ function Portfolio() {
               <h5>Local Exchange Hub</h5>
             </a>
             <a>
-              <faGithub />
+              <FaGithub />
             </a>
           </div>
         </article>
@@ -33,7 +33,7 @@ function Portfolio() {
               <h5>Random Recipe Generator</h5>
             </a>
             <a href="https://github.com/bongomin256/Random-Recipe-Generator">
-              <faGithub />
+              <FaGithub />
             </a>
           </div>
         </article>
@@ -50,7 +50,7 @@ function Portfolio() {
               <h5>Weather Dashboard</h5>
             </a>
             <a href="https://github.com/bongomin256/Weather-Dashboard">
-              <faGithub />
+              <FaGithub />
             </a>
           </div>
         </article>
@@ -67,7 +67,7 @@ function Portfolio() {
               <h5>My Portfoilio</h5>
             </a>
             <a href="https://github.com/bongomin256/Godfreys-Portfolio">
-              <faGithub />
+              <FaGithub />
             </a>
           </div>
         </article>
@@ -84,7 +84,7 @@ function Portfolio() {
               <h5>Work Day Scheduler</h5>
             </a>
             <a href="https://github.com/bongomin256/Work-Day-Planner">
-              <faGithub />
+              <FaGithub />
             </a>
           </div>
         </article>
