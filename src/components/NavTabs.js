@@ -42,7 +42,7 @@ const styles = {
   },
 };
 
-function NavTabs() {
+function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div>
       <header className="App-header" style={styles.header}>
