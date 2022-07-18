@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-solid-svg-icons";
 
 function Portfolio() {
   return (
@@ -15,7 +17,7 @@ function Portfolio() {
               <h5>Local Exchange Hub</h5>
             </a>
             <a>
-              <FontAwesomeIcon icon="fa-brands fa-github" />
+              <FontAwesomeIcon icon={faGithub} />
             </a>
           </div>
         </article>
@@ -32,7 +34,7 @@ function Portfolio() {
               <h5>Random Recipe Generator</h5>
             </a>
             <a href="https://github.com/bongomin256/Random-Recipe-Generator">
-              <FontAwesomeIcon icon="fa-brands fa-github" />
+              <FontAwesomeIcon icon={faGithub} />
             </a>
           </div>
         </article>
@@ -50,7 +52,7 @@ function Portfolio() {
             </a>
             <a href="https://github.com/bongomin256/Weather-Dashboard">
               {" "}
-              <FontAwesomeIcon icon="fa-brands fa-github" />
+              {/* <FontAwesomeIcon icon={faGithub} /> */}
             </a>
           </div>
         </article>
@@ -68,7 +70,7 @@ function Portfolio() {
             </a>
             <a href="https://github.com/bongomin256/Godfreys-Portfolio">
               {" "}
-              <FontAwesomeIcon icon="fa-brands fa-github" />
+              {/* <FontAwesomeIcon icon="fa-brands fa-github" /> */}
             </a>
           </div>
         </article>
@@ -86,7 +88,7 @@ function Portfolio() {
             </a>
             <a href="https://github.com/bongomin256/Work-Day-Planner">
               {" "}
-              <FontAwesomeIcon icon="fa-brands fa-github" />
+              {/* <FontAwesomeIcon icon="fa-brands fa-github" /> */}
             </a>
           </div>
         </article>
