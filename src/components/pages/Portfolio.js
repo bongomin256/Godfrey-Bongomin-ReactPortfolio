@@ -15,7 +15,7 @@ function Portfolio() {
             <a
               href="https://local-exchange-hub.herokuapp.com/"
               target="_blank"
-              rel="noopener"
+              rel="noreferrer"
             >
               <h5>Local Exchange Hub</h5>
             </a>
@@ -28,13 +28,13 @@ function Portfolio() {
           <img
             src="./assets/images/RRG.png"
             alt="Random Recipe generator webpage"
-            rel="noopener"
+            rel="noreferrer"
           />
           <div class="show-text">
             <a
               href="https://bongomin256.github.io/Random-Recipe-Generator/"
               target="_blank"
-              rel="noopener"
+              rel="noreferrer"
             >
               <h5>Random Recipe Generator</h5>
             </a>
@@ -52,7 +52,7 @@ function Portfolio() {
             <a
               href=" https://bongomin256.github.io/Weather-Dashboard/"
               target="_blank"
-              rel="noopener"
+              rel="noreferrer"
             >
               <h5>Weather Dashboard</h5>
             </a>
@@ -70,7 +70,7 @@ function Portfolio() {
             <a
               href="https://bongomin256.github.io/Godfreys-Portfolio/"
               target="_blank"
-              rel="noopener"
+              rel="noreferrer"
             >
               <h5>My Portfoilio</h5>
             </a>
@@ -88,7 +88,7 @@ function Portfolio() {
             <a
               href="https://bongomin256.github.io/Work-Day-Planner/"
               target="_blank"
-              rel="noopener"
+              rel="noreferrer"
             >
               <h5>Work Day Scheduler</h5>
             </a>
