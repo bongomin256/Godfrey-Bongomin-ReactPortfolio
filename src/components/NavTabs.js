@@ -26,7 +26,7 @@ const styles = {
     textDecoration: "none",
   },
   ahover: {
-    color: red,
+    color: "red",
   },
   resume: {
     backgroundColor: "transparent",
@@ -46,8 +46,8 @@ function NavTabs() {
   return (
     <div>
       <header className="App-header" style={styles.header}>
-        <h1 style={{ fontSize: "250%", cursor: pointer }}>
-          Godfrey <span style={{ color: red }}>Bongomin</span>
+        <h1 style={{ fontSize: "250%", cursor: "pointer" }}>
+          Godfrey <span style={{ color: "red" }}>Bongomin</span>
         </h1>
 
         <nav>
