@@ -52,26 +52,42 @@ function NavTabs() {
 
         <nav>
           <ul style={styles.unorderedList}>
-            <li style={styles.lists}>
-              <a href="#about-me" style={styles.anchor}>
+            <li className="nav-item" style={styles.lists}>
+              <a
+                href="#about-me"
+                onClick={() => handlePageChange("About Me")}
+                style={styles.anchor}
+                className={
+                  currentPage === "About Me" ? "nav-link active" : "nav-link"
+                }
+              >
                 About Me
               </a>
             </li>
-            <li style={styles.lists}>
-              <a href="#mywork" style={styles.anchor}>
-                My Work
+            <li className="nav-item" style={styles.lists}>
+              <a href="#portfolio" style={styles.anchor}>
+                Portfoilio
               </a>
             </li>
-            <li style={styles.lists}>
-              <a href="#contactme" style={styles.anchor}>
-                Contact Me
-              </a>
-            </li>
-            <li style={styles.lists}>
+            <li className="nav-item" style={styles.lists}>
               <a
-                id="resume"
-                href="https://drive.google.com/file/d/1aJ8V1sNmRRQlqoV2LGr8DKZGSWGyLvjr/view?usp=sharing"
-                target="_blank"
+                href="#contact"
+                onClick={() => handlePageChange("Contact")}
+                className={
+                  currentPage === "Contact" ? "nav-link active" : "nav-link"
+                }
+                style={styles.anchor}
+              >
+                Contact
+              </a>
+            </li>
+            <li className="nav-item" style={styles.lists}>
+              <a
+                href="#resume"
+                onClick={() => handlePageChange("Resume")}
+                className={
+                  currentPage === "Resume" ? "nav-link active" : "nav-link"
+                }
                 style={styles.anchor}
               >
                 Resume

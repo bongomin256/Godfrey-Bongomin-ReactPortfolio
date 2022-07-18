@@ -6,14 +6,14 @@ import Resume from "./pages/Resume";
 import Contact from "./pages/Contact";
 
 export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState("About");
+  const [currentPage, setCurrentPage] = useState("About Me");
 
   // TODO: Add a comment describing the functionality of this method
   const renderPage = () => {
     if (currentPage === "Portfolio") {
       return <Portfolio />;
     }
-    if (currentPage === "About") {
+    if (currentPage === "About Me") {
       return <About />;
     }
     if (currentPage === "Resume") {
