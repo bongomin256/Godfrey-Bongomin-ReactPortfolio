@@ -1,4 +1,5 @@
 import React from "react";
+
 const styles = {
   header: {
     display: "flex",
@@ -47,7 +48,7 @@ function NavTabs({ currentPage, handlePageChange }) {
     <div>
       <header className="App-header" style={styles.header}>
         <h1 style={{ fontSize: "250%", cursor: "pointer" }}>
-          Godfrey <span style={{ color: "red" }}>Bongomin</span>
+          GODFREY <span style={{ color: "red" }}>BONGOMIN</span>
         </h1>
 
         <nav>
@@ -65,8 +66,15 @@ function NavTabs({ currentPage, handlePageChange }) {
               </a>
             </li>
             <li className="nav-item" style={styles.lists}>
-              <a href="#portfolio" style={styles.anchor}>
-                Portfoilio
+              <a
+                href="#portfolio"
+                style={styles.anchor}
+                onClick={() => handlePageChange("Portfolio")}
+                className={
+                  currentPage === "Portfolio" ? "nav-link active" : "nav-link"
+                }
+              >
+                Portfolio
               </a>
             </li>
             <li className="nav-item" style={styles.lists}>
@@ -97,6 +105,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           </ul>
         </nav>
       </header>
+      <hr></hr>
     </div>
   );
 }
