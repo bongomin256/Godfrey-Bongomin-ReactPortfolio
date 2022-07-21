@@ -15,3 +15,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* .project-text:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+} */
+.container {
+  margin: 2%;
+  flex: 0 1 46%;
+  border: 3px solid #64ffda;
+  position: relative;
+  cursor: pointer;
+  opacity: 0.4;
+  transition: 0.3s;
+}
+.container:hover {
+  box-shadow: 0 6px 12px grey;
+  opacity: 1;
+}
+
+.anchor-resume:hover {
+  background-image: linear-gradient(to left,#f64f59, #c471ed, #12c2e9  );
+}

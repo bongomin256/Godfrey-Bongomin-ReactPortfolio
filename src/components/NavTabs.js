@@ -47,7 +47,7 @@ function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div>
       <header className="App-header" style={styles.header}>
-        <h1 style={{ fontSize: "250%", cursor: "pointer" }}>
+        <h1 style={{ fontSize: "300%", cursor: "pointer" }}>
           GODFREY <span style={{ color: "red" }}>BONGOMIN</span>
         </h1>
 

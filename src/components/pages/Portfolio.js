@@ -52,7 +52,8 @@ const styles = {
 function Portfolio() {
   const [hover, setHover] = useState(false);
 
-  const handleMouseOver = () => {
+  const handleMouseOver = (e) => {
+    console.log(e.target);
     setHover(true);
   };
   const handleMouseOut = () => {
@@ -62,15 +63,19 @@ function Portfolio() {
   return (
     <div>
       <section className="Portfolio" style={styles.Portfolio}>
-        <h1 className="portfolio-header">Portfolio</h1>
+        <h1
+          className="portfolio-header"
+          style={{ fontSize: "2.5rem", fontWeight: "bold" }}
+        >
+          Portfolio
+        </h1>
         <div className="projects" style={styles.projects}>
-          <div
-            className="left"
-            style={{ width: "50%" }}
-            onMouseOver={handleMouseOver}
-            onMouseOut={handleMouseOut}
-          >
-            <article className="container" style={styles.container}>
+          <div className="left" style={{ width: "50%" }}>
+            <article
+              className="container"
+              onMouseOver={handleMouseOver}
+              onMouseOut={handleMouseOut}
+            >
               <img
                 src={localExchange}
                 alt="screenshot of local exchange hub webpage"
@@ -92,27 +97,29 @@ function Portfolio() {
                 </div>
               )}
             </article>
-            <article className="container" style={styles.container}>
+            <article className="container">
               <img
                 src={RRG}
                 alt="Random Recipe generator webpage"
                 style={styles.img}
               />
-              <div className="project-text" style={styles.projexText}>
-                <a
-                  href="https://bongomin256.github.io/Random-Recipe-Generator/"
-                  target="_blank"
-                  rel="noreferrer"
-                  style={styles.anchor}
-                >
-                  <h5 style={styles.h5}>Random Recipe Generator</h5>
-                </a>
-                <a href="https://github.com/bongomin256/Random-Recipe-Generator">
-                  <FaGithub style={styles.icons} />
-                </a>
-              </div>
+              {hover && (
+                <div className="project-text" style={styles.projexText}>
+                  <a
+                    href="https://bongomin256.github.io/Random-Recipe-Generator/"
+                    target="_blank"
+                    rel="noreferrer"
+                    style={styles.anchor}
+                  >
+                    <h5 style={styles.h5}>Random Recipe Generator</h5>
+                  </a>
+                  <a href="https://github.com/bongomin256/Random-Recipe-Generator">
+                    <FaGithub style={styles.icons} />
+                  </a>
+                </div>
+              )}
             </article>
-            <article className="container" style={styles.container}>
+            <article className="container">
               <img
                 src={weather}
                 alt="weather dashboard webpage"
@@ -134,27 +141,7 @@ function Portfolio() {
             </article>
           </div>
           <div className="right" style={{ width: "50%" }}>
-            <article className="container" style={styles.container}>
-              <img
-                src={localExchange}
-                alt="screenshot of local exchange hub webpage"
-                style={styles.img}
-              />
-              <div className="project-text" style={styles.projexText}>
-                <a
-                  href="https://local-exchange-hub.herokuapp.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                  style={styles.anchor}
-                >
-                  <h5 style={styles.h5}>Local Exchange Hub</h5>
-                </a>
-                <a href="https://github.com/rkutsel/local-exchange-hub">
-                  <FaGithub style={styles.icons} />
-                </a>
-              </div>
-            </article>
-            <article className="container" style={styles.container}>
+            <article className="container">
               <img
                 src={MyPortfolio}
                 alt="screenshot of my Portfoilio webpage"
@@ -174,7 +161,7 @@ function Portfolio() {
                 </a>
               </div>
             </article>
-            <article className="container " style={styles.container}>
+            <article className="container">
               <img
                 src={workdayPlanner}
                 alt="Work day scheduler webpage"

@@ -29,12 +29,19 @@ function About() {
           justifyContent: "space-between",
         }}
       >
-        <h1 className="about-header">About Me</h1>
+        <h1
+          className="about-header"
+          style={{ fontSize: "2.5rem", fontWeight: "bold" }}
+        >
+          About Me
+        </h1>
         <article
           className="main-about"
-          style={{
-            display: "flex",
-          }}
+          style={
+            {
+              // display: "flex",
+            }
+          }
         >
           <img
             className="my-photo"
@@ -51,8 +58,8 @@ function About() {
               I am currently attending a full-stack development coding bootcamp
               at University of Washington with a goal of becoming a full-stack
               web developer. I have experience in HTML, CSS, Javascript and
-              MySQL. Framework: Nodejs, Expressjs, mongoDB, bootstrap, bulma,
-              APIs.
+              MySQL. Framework: Nodejs, Expressjs, ReactJs, GraphQL, mongoDB,
+              bootstrap, bulma, APIs.
             </p>
             <p style={styles.paragraph}>
               Feel free to explore and contact me with any opportunities or
