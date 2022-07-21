@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Godfrey-Bongomin-ReactPortfolio/static/css/main.505280c3.css",
-    "main.js": "/Godfrey-Bongomin-ReactPortfolio/static/js/main.11b6ab53.js",
-    "static/media/local_exchange_hub_homepage.png": "/Godfrey-Bongomin-ReactPortfolio/static/media/local_exchange_hub_homepage.007b841504688ca205d4.png",
+    "main.css": "/Godfrey-Bongomin-ReactPortfolio/static/css/main.0c15fa6f.css",
+    "main.js": "/Godfrey-Bongomin-ReactPortfolio/static/js/main.f432b90c.js",
+    "static/media/local_exchange_hub_homepage.png": "/Godfrey-Bongomin-ReactPortfolio/static/media/local_exchange_hub_homepage.a98f17cd43e69be8a943.png",
     "static/media/FullSizeRender.jpeg": "/Godfrey-Bongomin-ReactPortfolio/static/media/FullSizeRender.65735efc62157da3268c.jpeg",
-    "static/media/RRG.png": "/Godfrey-Bongomin-ReactPortfolio/static/media/RRG.b1e07d3274effd7ab1a3.png",
-    "static/media/My_Portfolio.png": "/Godfrey-Bongomin-ReactPortfolio/static/media/My_Portfolio.7073273075016c895b42.png",
-    "static/media/weather.png": "/Godfrey-Bongomin-ReactPortfolio/static/media/weather.8b1ae5aed6947f3f21af.png",
-    "static/media/workdayPlanner.png": "/Godfrey-Bongomin-ReactPortfolio/static/media/workdayPlanner.d48c7d3878be90eebe73.png",
+    "static/media/RRG.png": "/Godfrey-Bongomin-ReactPortfolio/static/media/RRG.dc5b4d7388574dcad517.png",
+    "static/media/My_Portfolio.png": "/Godfrey-Bongomin-ReactPortfolio/static/media/My_Portfolio.a537a620fa03d6541a07.png",
+    "static/media/weather.png": "/Godfrey-Bongomin-ReactPortfolio/static/media/weather.cd53a705ad2caee416a1.png",
+    "static/media/workdayPlanner.png": "/Godfrey-Bongomin-ReactPortfolio/static/media/workdayPlanner.ea4f1aef772905c29838.png",
     "index.html": "/Godfrey-Bongomin-ReactPortfolio/index.html",
-    "main.505280c3.css.map": "/Godfrey-Bongomin-ReactPortfolio/static/css/main.505280c3.css.map",
-    "main.11b6ab53.js.map": "/Godfrey-Bongomin-ReactPortfolio/static/js/main.11b6ab53.js.map"
+    "main.0c15fa6f.css.map": "/Godfrey-Bongomin-ReactPortfolio/static/css/main.0c15fa6f.css.map",
+    "main.f432b90c.js.map": "/Godfrey-Bongomin-ReactPortfolio/static/js/main.f432b90c.js.map"
   },
   "entrypoints": [
-    "static/css/main.505280c3.css",
-    "static/js/main.11b6ab53.js"
+    "static/css/main.0c15fa6f.css",
+    "static/js/main.f432b90c.js"
   ]
 }
