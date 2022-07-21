@@ -4,8 +4,6 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
-- [Contributing](#contributiing)
-- [Test](#test)
 - [Questions](#questions)
 - [Screenshots](#screenshots)
 - [Links](#links)
@@ -35,10 +33,6 @@ Type http://localhost:3000/ to see the applicaton on your brower
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg).
 The license's link [MIT](https://opensource.org/licenses/MIT)
 
-## Test
-
-You have to download and and install nodejs inorderto be able to run this application. Also you need to install inquirer module.
-
 ## Questions
 
 This is the link to my [Github profile](https://github.com/bongomin256)
@@ -51,5 +45,5 @@ Incase of any question[s] or suggestion[s] concerning this appication, please co
 
 ## Screenshots
 
-![screenshot](./Develop/images/screenshot1.png)
-![screenshot](./Develop/images/screenshot2.png)
+![screenshot](./src/components/images/screenshot1.png)
+![screenshot](./src/components/images/screenshot2.png)

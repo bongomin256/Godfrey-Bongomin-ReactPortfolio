@@ -39,10 +39,13 @@ const styles = {
   h5: {
     fontSize: "30px",
     fontWeight: "20px",
+    color: "#001028",
+    display: "none",
   },
   icons: {
     fontSize: "30px",
     marginLeft: "20px",
+    display: "none",
   },
   anchor: {
     textDecoration: "none",
@@ -89,15 +92,21 @@ function Portfolio() {
                     rel="noreferrer"
                     style={styles.anchor}
                   >
-                    <h5 style={styles.h5}>Local Exchange Hub</h5>
+                    <h5 style={styles.h5} className="proHeader">
+                      Local Exchange Hub
+                    </h5>
                   </a>
                   <a href="https://github.com/rkutsel/local-exchange-hub">
-                    <FaGithub style={styles.icons} />
+                    <FaGithub style={styles.icons} className="fa-icon" />
                   </a>
                 </div>
               )}
             </article>
-            <article className="container">
+            <article
+              className="container"
+              onMouseOver={handleMouseOver}
+              onMouseOut={handleMouseOut}
+            >
               <img
                 src={RRG}
                 alt="Random Recipe generator webpage"
@@ -111,10 +120,12 @@ function Portfolio() {
                     rel="noreferrer"
                     style={styles.anchor}
                   >
-                    <h5 style={styles.h5}>Random Recipe Generator</h5>
+                    <h5 style={styles.h5} className="proHeader">
+                      Random Recipe Generator
+                    </h5>
                   </a>
                   <a href="https://github.com/bongomin256/Random-Recipe-Generator">
-                    <FaGithub style={styles.icons} />
+                    <FaGithub style={styles.icons} className="fa-icon" />
                   </a>
                 </div>
               )}
@@ -132,10 +143,12 @@ function Portfolio() {
                   rel="noreferrer"
                   style={styles.anchor}
                 >
-                  <h5 style={styles.h5}>Weather Dashboard</h5>
+                  <h5 style={styles.h5} className="proHeader">
+                    Weather Dashboard
+                  </h5>
                 </a>
                 <a href="https://github.com/bongomin256/Weather-Dashboard">
-                  <FaGithub style={styles.icons} />
+                  <FaGithub style={styles.icons} className="fa-icon" />
                 </a>
               </div>
             </article>
@@ -154,10 +167,12 @@ function Portfolio() {
                   rel="noreferrer"
                   style={styles.anchor}
                 >
-                  <h5 style={styles.h5}>My Portfoilio</h5>
+                  <h5 style={styles.h5} className="proHeader">
+                    My Portfoilio
+                  </h5>
                 </a>
                 <a href="https://github.com/bongomin256/Godfreys-Portfolio">
-                  <FaGithub style={styles.icons} />
+                  <FaGithub style={styles.icons} className="fa-icon" />
                 </a>
               </div>
             </article>
@@ -174,10 +189,12 @@ function Portfolio() {
                   rel="noreferrer"
                   style={styles.anchor}
                 >
-                  <h5 style={styles.h5}>Work Day Scheduler</h5>
+                  <h5 style={styles.h5} className="proHeader">
+                    Work Day Scheduler
+                  </h5>
                 </a>
                 <a href="https://github.com/bongomin256/Work-Day-Planner">
-                  <FaGithub style={styles.icons} />
+                  <FaGithub style={styles.icons} className="fa-icon" />
                 </a>
               </div>
             </article>

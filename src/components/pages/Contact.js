@@ -53,6 +53,49 @@ function Contact() {
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
   const [message, setMessage] = useState("");
+  // const [errorMessage, setErrorMessage] = useState("");
+
+  // const handleInputChange = (e) => {
+  //   // Getting the value and name of the input which triggered the change
+  //   // const { target } = e;
+  //   // const inputType = target.name;
+
+  //   const inputValue = e.target.value;
+  //   console.log(e);
+
+  //   setEmail(inputValue);
+  //   setMessage(inputValue);
+  //   setName(inputValue);
+
+  //   // Based on the input type, we set the state of either email, username, and password
+
+  //   // if (inputType === "email") {
+  //   //   setEmail(inputValue);
+  //   // } else if (inputType === "name ") {
+  //   //   setName(inputValue);
+  //   // } else {
+  //   //   setMessage(inputValue);
+  //   // }
+  // };
+
+  // const handleFormSubmit = (e) => {
+  //   // Preventing the default behavior of the form submit (which is to refresh the page)
+  //   e.preventDefault();
+
+  //   // First we check to see if the email is not valid or if the userName is empty. If so we set an error message to be displayed on the page.
+  //   // if (!name || !email || !message) {
+  //   //   setErrorMessage("all fields required");
+  //   //   // We want to exit out of this code block if something is wrong so that the user can correct it
+  //   //   return;
+  //   //   // Then we check to see if the password is not valid. If so, we set an error message regarding the password.
+  //   // }
+
+  //   // If successful, we want to clear out the input after registration.
+  //   setName("");
+  //   // TODO: Set the password back to an empty string after the user clicks submit
+  //   setMessage("");
+  //   setEmail("");
+  // };
 
   return (
     <div>
@@ -99,7 +142,9 @@ function Contact() {
             </label>
           </div>
 
-          <button type="submit">Send</button>
+          <button type="submit" onClick={(e) => e.preventDefault()}>
+            Send
+          </button>
         </FormStyle>
       </section>
     </div>
