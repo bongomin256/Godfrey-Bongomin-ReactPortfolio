@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Godfrey-Bongomin-ReactPortfolio/static/css/main.95473dd8.css",
-    "main.js": "/Godfrey-Bongomin-ReactPortfolio/static/js/main.25071c0b.js",
+    "main.css": "/Godfrey-Bongomin-ReactPortfolio/static/css/main.95bf25d0.css",
+    "main.js": "/Godfrey-Bongomin-ReactPortfolio/static/js/main.0a911203.js",
     "static/media/local_exchange_hub_homepage.png": "/Godfrey-Bongomin-ReactPortfolio/static/media/local_exchange_hub_homepage.a98f17cd43e69be8a943.png",
     "static/media/FullSizeRender.jpeg": "/Godfrey-Bongomin-ReactPortfolio/static/media/FullSizeRender.65735efc62157da3268c.jpeg",
     "static/media/RRG.png": "/Godfrey-Bongomin-ReactPortfolio/static/media/RRG.dc5b4d7388574dcad517.png",
@@ -9,11 +9,11 @@
     "static/media/weather.png": "/Godfrey-Bongomin-ReactPortfolio/static/media/weather.cd53a705ad2caee416a1.png",
     "static/media/workdayPlanner.png": "/Godfrey-Bongomin-ReactPortfolio/static/media/workdayPlanner.ea4f1aef772905c29838.png",
     "index.html": "/Godfrey-Bongomin-ReactPortfolio/index.html",
-    "main.95473dd8.css.map": "/Godfrey-Bongomin-ReactPortfolio/static/css/main.95473dd8.css.map",
-    "main.25071c0b.js.map": "/Godfrey-Bongomin-ReactPortfolio/static/js/main.25071c0b.js.map"
+    "main.95bf25d0.css.map": "/Godfrey-Bongomin-ReactPortfolio/static/css/main.95bf25d0.css.map",
+    "main.0a911203.js.map": "/Godfrey-Bongomin-ReactPortfolio/static/js/main.0a911203.js.map"
   },
   "entrypoints": [
-    "static/css/main.95473dd8.css",
-    "static/js/main.25071c0b.js"
+    "static/css/main.95bf25d0.css",
+    "static/js/main.0a911203.js"
   ]
 }
