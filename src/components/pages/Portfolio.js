@@ -12,8 +12,6 @@ const styles = {
   },
   projects: {
     display: "flex",
-    // flexWrap: "wrap",
-    // flexDirection: "row",
   },
   container: {
     margin: "2%",
@@ -40,12 +38,11 @@ const styles = {
     fontSize: "30px",
     fontWeight: "20px",
     color: "#001028",
-    display: "none",
   },
   icons: {
     fontSize: "30px",
     marginLeft: "20px",
-    display: "none",
+    color: "#001028",
   },
   anchor: {
     textDecoration: "none",
@@ -73,7 +70,12 @@ function Portfolio() {
           Portfolio
         </h1>
         <div className="projects" style={styles.projects}>
-          <div className="left" style={{ width: "50%" }}>
+          <div
+            className="left"
+            style={{ width: "50%" }}
+            // onMouseOver={handleMouseOver}
+            // onMouseOut={handleMouseOut}
+          >
             <article
               className="container"
               onMouseOver={handleMouseOver}
@@ -154,27 +156,34 @@ function Portfolio() {
             </article>
           </div>
           <div className="right" style={{ width: "50%" }}>
-            <article className="container">
+            <article
+              className="container"
+              onMouseOver={handleMouseOver}
+              onMouseOut={handleMouseOut}
+            >
               <img
                 src={MyPortfolio}
                 alt="screenshot of my Portfoilio webpage"
                 style={styles.img}
               />
-              <div className="project-text" style={styles.projexText}>
-                <a
-                  href="https://bongomin256.github.io/Godfreys-Portfolio/"
-                  target="_blank"
-                  rel="noreferrer"
-                  style={styles.anchor}
-                >
-                  <h5 style={styles.h5} className="proHeader">
-                    My Portfoilio
-                  </h5>
-                </a>
-                <a href="https://github.com/bongomin256/Godfreys-Portfolio">
-                  <FaGithub style={styles.icons} className="fa-icon" />
-                </a>
-              </div>
+
+              {hover && (
+                <div style={styles.projexText}>
+                  <a
+                    href="https://bongomin256.github.io/Godfreys-Portfolio/"
+                    target="_blank"
+                    rel="noreferrer"
+                    style={styles.anchor}
+                  >
+                    <h5 style={styles.h5} className="proHeader1">
+                      My Portfoilio
+                    </h5>
+                  </a>
+                  <a href="https://github.com/bongomin256/Godfreys-Portfolio">
+                    <FaGithub style={styles.icons} className="fa-icon" />
+                  </a>
+                </div>
+              )}
             </article>
             <article className="container">
               <img
@@ -194,6 +203,28 @@ function Portfolio() {
                   </h5>
                 </a>
                 <a href="https://github.com/bongomin256/Work-Day-Planner">
+                  <FaGithub style={styles.icons} className="fa-icon" />
+                </a>
+              </div>
+            </article>
+            <article className="container">
+              <img
+                src={workdayPlanner}
+                alt="Work day scheduler webpage"
+                style={styles.img}
+              />
+              <div className="project-text" style={styles.projexText}>
+                <a
+                  href="https://bongomin256.github.io/Code-Quiz-Challenge/"
+                  target="_blank"
+                  rel="noreferrer"
+                  style={styles.anchor}
+                >
+                  <h5 style={styles.h5} className="proHeader">
+                    Code Quiz Challenge
+                  </h5>
+                </a>
+                <a href="https://github.com/bongomin256/Code-Quiz-Challenge">
                   <FaGithub style={styles.icons} className="fa-icon" />
                 </a>
               </div>
