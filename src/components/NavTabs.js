@@ -19,7 +19,7 @@ const styles = {
   },
   lists: {
     listStyle: "none",
-    fontSize: "16px",
+    fontSize: "25px",
     padding: "10px 25px",
   },
   anchor: {
@@ -62,7 +62,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                   currentPage === "About Me" ? "nav-link active" : "nav-link"
                 }
               >
-                About Me
+                About
               </a>
             </li>
             <li className="nav-item" style={styles.lists}>

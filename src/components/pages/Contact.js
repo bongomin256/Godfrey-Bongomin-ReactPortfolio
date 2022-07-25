@@ -57,6 +57,7 @@ const FormStyle = styled.form`
     color: white;
   }
 `;
+
 function Contact() {
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
@@ -65,19 +66,17 @@ function Contact() {
 
   const handleInputChange = (e) => {
     // Getting the value and name of the input which triggered the change
+    e.preventDefault();
     const { target } = e;
     const inputType = target.name;
     const inputValue = e.target.value;
-
-    // setEmail(inputValue);
-    // setMessage(inputValue);
-    // setName(inputValue);
+    console.log(inputType, inputValue);
 
     // Based on the input type, we set the state of either email, username, and password
 
     if (inputType === "email") {
       setEmail(inputValue);
-    } else if (inputType === "name ") {
+    } else if (inputType === "name") {
       setName(inputValue);
     } else {
       setMessage(inputValue);
@@ -94,12 +93,11 @@ function Contact() {
       // We want to exit out of this code block if something is wrong so that the user can correct it
       return;
       // Then we check to see if the password is not valid. If so, we set an error message regarding the password.
-    } else {
-      // If successful, we want to clear out the input after registration.
-      setName("");
-      setMessage("");
-      setEmail("");
     }
+    // If successful, we want to clear out the input after registration.
+    setName("");
+    setMessage("");
+    setEmail("");
   };
 
   return (
@@ -128,7 +126,7 @@ function Contact() {
               Email
               <input
                 value={email}
-                email="email"
+                name="email"
                 type="text"
                 onChange={handleInputChange}
               ></input>
@@ -140,7 +138,7 @@ function Contact() {
               Message
               <textarea
                 value={message}
-                message="message"
+                name="message"
                 type="text"
                 onChange={handleInputChange}
               ></textarea>
@@ -150,6 +148,13 @@ function Contact() {
           <button type="submit" onClick={handleFormSubmit}>
             Send
           </button>
+          {errorMessage && (
+            <div>
+              <p className="error-text" style={{ color: "red" }}>
+                {errorMessage}
+              </p>
+            </div>
+          )}
         </FormStyle>
       </section>
     </div>

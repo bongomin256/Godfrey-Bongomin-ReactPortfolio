@@ -16,10 +16,11 @@ code {
     monospace;
 }
 
-/* .project-text:hover {
+.nav-item:hover {
   text-decoration: underline;
   text-underline-offset: 3px;
-} */
+  color: red;
+}
 .container {
   margin: 2%;
   flex: 0 1 46%;
@@ -34,17 +35,11 @@ code {
   opacity: 1;
 }
 
-.fa-icon:hover {
-   display: block;
+
+@media screen and (max-width: 768){
+  
 }
 
-/* .proHeader1 {
-  visibility: hidden;
-      opacity:  0;
-      transition: opacity .2s, visibility .2s;
-}
+@media screen and (max-width: 480) {
 
-.proHeader1:hover {
-  visibility: visible;
-  opacity: 1;
-} */
+}

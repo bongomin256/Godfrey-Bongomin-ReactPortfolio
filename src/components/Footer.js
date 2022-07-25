@@ -1,7 +1,6 @@
 import React from "react";
 import { FaGithub, FaLinkedin, FaStackOverflow } from "react-icons/fa";
 import styled from "styled-components";
-// import { Link } from "react-router-dom";
 
 const FooterStyle = styled.section`
   font-size: 3rem;
